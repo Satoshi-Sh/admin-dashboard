@@ -6,24 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
 </head>
 <body>
     <div class="container">
 
         <div class="sidebar">
-            <h4 class="icon">Dashboard</h4>
+            <h4 class="icon"><i class="bi bi-grid-1x2-fill"></i> Dashboard</h4>
             <ul class="tools">
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Message</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <li><i class="bi bi-house"></i> Home</li>
+                <li><i class="bi bi-person"></i> Profile</li>
+                <li><i class="bi bi-mailbox"></i> Message</li>
+                <li><i class="bi bi-clock"></i> History</li>
+                <li><i class="bi bi-list-task"></i> Tasks</li>
+                <li><i class="bi bi-people"></i> Communities</li>
             </ul>
             <ul class="settings">
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li><i class="bi bi-gear"></i> Settings</li>
+                <li><i class="bi bi-question-circle"></i> Support</li>
+                <li><i class="bi bi-shield-check"></i> Privacy</li>
             </ul>
         </div>
         <div class="header">
@@ -31,11 +33,17 @@
                 <input type="text" class="search">
             </div>
             <div class="notice-div">
-                Satoshi S.
+                <img class="small" src='icons/man (1).png'><span>Satoshi S.</span>
             </div>
+    
             <div class="name-div">
-                <p>Hi there,</p>
-                <h3>Satoshi S. (@satoss)</h3>
+                <div class="picture-div">
+                    <img class="medium" src='icons/man (1).png'>
+                </div>
+                <div>
+                    <p>Hi there,</p>
+                    <h3>Satoshi S. (@satoss)</h3>
+                </div>
             </div>
             <div class="button-div">
                 <button>New</button>
@@ -95,17 +103,42 @@
                 <div class="board">
                   <ul>
                     <li class="person">
-                        <h5>@tegan</h5>
-                        <p>World Peace Builder</p>
+                        <div class="picture-div">
+                            <img class="medium" src='icons/man (1).png'>
+                        </div>   
+                        <div class="profile-div">
+                            <h5 class="username">@satoss</h5>
+                            <p class="sub">World Peace Builder</p>
+                        </div>
                     </li>
                     <li class="person">
-                        <h5>@Morgan</h5>
-                        <p>Super cool Project</p>
+                        <div class="picture-div">
+                            <img class="medium" src='icons/man.png'>
+                        </div>   
+                        <div class="profile-div">
+                            <h5 class="username">@Morgan</h5>
+                            <p class="sub">Super Cool Project</p>
+                        </div>
                     </li>
                     <li class="person">
-                        <h5>@Kendall</h5>
-                        <p>Life Chaninging App</p>
+                        <div class="picture-div">
+                            <img class="medium" src='icons/girl.png'>
+                        </div>   
+                        <div class="profile-div">
+                            <h5 class="username">@Kathy</h5>
+                            <p class="sub">Life Changing App</p>
+                        </div>
                     </li>
+                    <li class="person">
+                        <div class="picture-div">
+                            <img class="medium" src='icons/boy.png'>
+                        </div>   
+                        <div class="profile-div">
+                            <h5 class="username">@Nagan</h5>
+                            <p class="sub">Chat App</p>
+                        </div>
+                    </li>
+                    
                   </ul>
                 </div>
             </div>

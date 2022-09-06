@@ -22,7 +22,7 @@
 }
 
 .icon {
-    font-size:25px;
+    font-size:23px;
     padding:20px;
     word-wrap:break-word;
 }
@@ -62,6 +62,9 @@ button {
     width:90px;
 }
 
+input {
+    padding-left:5px;
+}
 
 
 .main {
@@ -121,3 +124,61 @@ button {
     padding:20px;
 }
 
+.small {
+    width:30px;
+    height:30px;
+    background-color:bisque;
+    border-radius:50%;
+
+}
+
+.notice-div {
+    display:flex;
+    align-items: center;
+}
+
+.notice-div span{
+    margin-top:5px;
+    margin-left:4px;
+}
+
+.medium {
+    width:40px;
+    height:40px;
+    background-color:bisque;
+    border-radius:50%;
+
+}
+.name-div{
+    display:flex;
+    gap:5px;
+}
+
+.picture-div{
+    display:flex;
+    vertical-align:top;
+}
+
+.person{
+    display:flex;
+}
+
+.board ul {
+    padding-left:5px;
+}
+
+.profile-div{
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+.username {
+    margin-left:20px;
+    margin-bottom:-15px;
+}
+
+.sub {
+    font-size:15px;
+}
